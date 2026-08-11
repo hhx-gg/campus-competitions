@@ -32,21 +32,6 @@
 - **数据每日更新**：应用启动时及每日零点检查最新数据包，失败时自动回退上一版有效数据；
 - **应用自动升级**：启动时及每 6 小时检查签名升级包。
 
-## 界面预览
-
-> 概念图：首页、搜索结果、竞赛详情、收藏、赛程日历与个人设置。
-
-<p align="center">
-  <img src="image/%E4%B8%BB%E7%95%8C%E9%9D%A2%E5%9B%BE/ChatGPT%20Image%202026%E5%B9%B48%E6%9C%888%E6%97%A5%2012_23_27%20%281%29.png" width="30%" alt="概念图 1" />
-  <img src="image/%E4%B8%BB%E7%95%8C%E9%9D%A2%E5%9B%BE/ChatGPT%20Image%202026%E5%B9%B48%E6%9C%888%E6%97%A5%2012_23_27%20%282%29.png" width="30%" alt="概念图 2" />
-  <img src="image/%E4%B8%BB%E7%95%8C%E9%9D%A2%E5%9B%BE/ChatGPT%20Image%202026%E5%B9%B48%E6%9C%888%E6%97%A5%2012_23_27%20%283%29.png" width="30%" alt="概念图 3" />
-</p>
-<p align="center">
-  <img src="image/%E4%B8%BB%E7%95%8C%E9%9D%A2%E5%9B%BE/ChatGPT%20Image%202026%E5%B9%B48%E6%9C%888%E6%97%A5%2012_23_27%20%284%29.png" width="30%" alt="概念图 4" />
-  <img src="image/%E4%B8%BB%E7%95%8C%E9%9D%A2%E5%9B%BE/ChatGPT%20Image%202026%E5%B9%B48%E6%9C%888%E6%97%A5%2012_23_27%20%285%29.png" width="30%" alt="概念图 5" />
-  <img src="image/%E4%B8%BB%E7%95%8C%E9%9D%A2%E5%9B%BE/ChatGPT%20Image%202026%E5%B9%B48%E6%9C%888%E6%97%A5%2012_23_27%20%286%29.png" width="30%" alt="概念图 6" />
-</p>
-
 ## 技术架构
 
 ```text
