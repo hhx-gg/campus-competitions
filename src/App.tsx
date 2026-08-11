@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import {
   BookOpen, CalendarDays, ChevronRight, CircleHelp, Download, Eye,
   FileText, Heart, Home, Languages, ListFilter, Moon, RefreshCw,
-  Search, ShieldCheck, Sparkles, Sun, UserRound, X, Zap,
+  Search, ShieldCheck, Sun, UserRound, X, Zap,
 } from 'lucide-react'
 import { getCurrentWindow } from '@tauri-apps/api/window'
 import { openUrl } from '@tauri-apps/plugin-opener'
@@ -192,7 +192,7 @@ export default function App() {
 
   return <div className={`app-shell ${theme === 'dark' ? 'theme-dark' : ''}`} lang={language === 'zh' ? 'zh-CN' : 'en'}>
     <header className="window-bar">
-      <div className="brand-lockup"><div className="brand-mark"><Sparkles size={18} /></div><div><strong>{tx(language, 'appName')}</strong><span>{tx(language, 'appSub')}</span></div></div>
+      <div className="brand-lockup"><div className="brand-mark"><img src="/logo.png" alt="" /></div><div><strong>{tx(language, 'appName')}</strong><span>{tx(language, 'appSub')}</span></div></div>
       <div className="window-actions"><button aria-label={language === 'zh' ? '帮助' : 'Help'} onClick={() => notify(tx(language, 'help'))}><CircleHelp size={18} /></button><button aria-label={language === 'zh' ? '最小化窗口' : 'Minimize window'} onClick={() => void getCurrentWindow().minimize()}>—</button><button aria-label={language === 'zh' ? '关闭窗口' : 'Close window'} onClick={() => void getCurrentWindow().close()}>×</button></div>
     </header>
     <div className="app-body">

@@ -35,7 +35,7 @@ delegated: Tauri 2 desktop shell with React + TypeScript frontend; local SQLite/
 - 数据仅抓取公开可访问的官方页面，并保留来源网址和最后核验时间。
 - 日期冲突标记为待核验；抓取失败保留旧数据并警告。
 - 难度和含金量为独立指标；依据不足时显示“暂无评级”。
-- GitHub 仓库和发布流程暂缓，最终版确认后再建立并上传。
+- GitHub 仓库：已发布私有仓库 campus-competitions（https://github.com/hhx-gg/campus-competitions）；待正式验收后转为公开，并继续通过 GitHub Releases 发布安装包。
 
 ## Brand Commitments
 
