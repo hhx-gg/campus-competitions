@@ -1,0 +1,16 @@
+{
+  "name": "nomore-info-gaps-data",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cloudflare Worker: daily crawl and publication of verified college competition data",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "login": "wrangler login",
+    "whoami": "wrangler whoami",
+    "kv:list": "wrangler kv namespace list",
+    "kv:create": "wrangler kv namespace create COMPETITION_DATA"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
