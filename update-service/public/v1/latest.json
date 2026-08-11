@@ -1,0 +1,11 @@
+{
+  "version": "0.6.0",
+  "notes": "增强每日数据更新、官方站点标识、年份筛选、深色主题、隐藏恢复、双语界面与应用自动升级。",
+  "pub_date": "2026-08-11T02:15:22.007Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVScGp0azRnWTRlYmlmZG5XWjNGOEx4Z3djSitPS3pneXMvM2J5SXJxVDBNK1h0TUV2U2lXY1pkZzBybUtJS09PTitlb2MxUGZXQms5Y21Xc3VKV3orUHFhdDVjL2VSb2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDE0NDcwCWZpbGU65p2c57ud5L+h5oGv5beuXzAuNi4wX3g2NC1zZXR1cC5leGUKMHNzNCtYc3d4MmNKZUw2S1NtQ1o5V1hvMzNBUUJHV1pMOFRmMUtHdUh3ODlNQXZzaXg1dHdqZjYycFR5bzh6Z0NtWnNCRE4waHF5azBGWnd4OFg0REE9PQo=",
+      "url": "https://nomore-info-gaps-data.17789861171.workers.dev/downloads/no-more-info-gaps_0.6.0_x64-setup.exe"
+    }
+  }
+}

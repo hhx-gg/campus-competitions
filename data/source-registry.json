@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-08",
+  "policy": {
+    "scope": "公开可访问的官方竞赛页面和官方组织机构页面",
+    "attachmentPolicy": "只保留官方网站或报名页链接，不缓存附件",
+    "failurePolicy": "保留旧数据并标记抓取状态，不静默覆盖",
+    "robotsPolicy": "抓取前检查 robots.txt；尊重站点规则、限速和拒绝信号"
+  },
+  "sources": [
+    {
+      "id": "moe-innovation-notice",
+      "name": "教育部政府门户：创新大赛通知",
+      "url": "https://www.moe.gov.cn/srcsite/A08/s5672/202505/t20250509_1189810.html",
+      "kind": "government",
+      "coverage": ["创新创业", "国家级"],
+      "accessStatus": "verified",
+      "lastChecked": "2026-08-08",
+      "notes": "教育部关于举办中国国际大学生创新大赛（2025）的官方通知。"
+    },
+    {
+      "id": "ncss-innovation",
+      "name": "全国大学生创业服务网",
+      "url": "https://cy.ncss.cn/",
+      "kind": "government-platform",
+      "coverage": ["创新创业", "本科生", "研究生"],
+      "accessStatus": "verified",
+      "lastChecked": "2026-08-08",
+      "notes": "教育部学生服务与素质发展中心运营，含大赛动态、赛道、赛制和资料下载。"
+    },
+    {
+      "id": "cumcm",
+      "name": "全国大学生数学建模竞赛官网",
+      "url": "https://www.mcm.edu.cn/index.moma",
+      "kind": "association-official",
+      "coverage": ["数学建模", "国家级", "本科生"],
+      "accessStatus": "verified",
+      "lastChecked": "2026-08-08",
+      "notes": "中国工业与应用数学学会主办；官网公开竞赛通知、规则、赛题和历年数据。"
+    },
+    {
+      "id": "lanqiao",
+      "name": "蓝桥杯大赛官网",
+      "url": "https://dasai.lanqiao.cn/",
+      "kind": "enterprise-official",
+      "coverage": ["程序设计", "软件", "信息技术"],
+      "accessStatus": "verified",
+      "lastChecked": "2026-08-08",
+      "notes": "官方赛事站点；后续需检查具体赛项页的公开访问和频率限制。"
+    },
+    {
+      "id": "nuedc",
+      "name": "全国大学生电子设计竞赛培训网",
+      "url": "https://www.nuedc-training.com.cn/",
+      "kind": "contest-committee",
+      "coverage": ["电子设计", "电气工程", "本科生"],
+      "accessStatus": "needs-retry",
+      "lastChecked": "2026-08-08",
+      "notes": "搜索结果和官方站点介绍均表明其为全国大学生电子设计竞赛组委会授权平台；当前直连曾返回502，按策略重试后再决定是否接入。"
+    },
+    {
+      "id": "shuwei-cup",
+      "name": "数维杯全国大学生数学建模挑战赛官网",
+      "url": "https://nmmcm.org.cn/",
+      "kind": "association-official",
+      "coverage": ["数学建模", "本科生", "研究生"],
+      "accessStatus": "verified",
+      "lastChecked": "2026-08-08",
+      "notes": "公开发布竞赛通知、赛季信息和承办/协办信息；需在数据质量层区分官方主办与合作信息。"
+    },
+    {
+      "id": "zhongqing-cup",
+      "name": "中青杯全国大学生数学建模竞赛官网",
+      "url": "https://www.cycmcm.com/",
+      "kind": "association-official",
+      "coverage": ["数学建模"],
+      "accessStatus": "verified",
+      "lastChecked": "2026-08-08",
+      "notes": "公开竞赛章程、报名和获奖信息；是否纳入国家级标签必须由人工审核。"
+    },
+    {
+      "id": "kechuang-cup",
+      "name": "科创杯大学生数学建模竞赛官网",
+      "url": "https://www.simcm.org.cn/",
+      "kind": "enterprise-official",
+      "coverage": ["数学建模"],
+      "accessStatus": "verified",
+      "lastChecked": "2026-08-08",
+      "notes": "公开赛事通告和竞赛活动信息；含金量字段不从站点名称自动推断。"
+    },
+    {
+      "id": "dxs-moe",
+      "name": "中国大学生在线",
+      "url": "https://dxs.moe.gov.cn/",
+      "kind": "government-platform",
+      "coverage": ["综合", "教育主管部门"],
+      "accessStatus": "verified",
+      "lastChecked": "2026-08-08",
+      "notes": "可作为教育主管部门和竞赛信息的交叉核验来源，不替代具体赛事官网。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "杜绝信息差",
+  "version": "0.6.0",
+  "identifier": "com.campuscompetitions.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:4173",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "杜绝信息差——大学生友好竞赛消息工具",
+        "width": 1440,
+        "height": 960,
+        "minWidth": 1080,
+        "minHeight": 720,
+        "resizable": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self' http://127.0.0.1:4173; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; connect-src 'self' https: http://127.0.0.1:4173"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "createUpdaterArtifacts": true,
+    "targets": ["nsis"],
+    "icon": ["icons/icon.ico"]
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDZFMUU4RTgxMzhEOThFNjkKUldScGp0azRnWTRlYnAyMXI3WWpaMDY4d2hqMXQ5eHpBck9jOUdKbmI5OE5ya1F2dldqdFNnWG8K",
+      "endpoints": ["https://nomore-info-gaps-data.17789861171.workers.dev/v1/latest.json"],
+      "windows": { "installMode": "passive" }
+    }
+  }
+}

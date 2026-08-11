@@ -1,0 +1,36 @@
+{
+  "name": "campus-competitions",
+  "private": true,
+  "version": "0.6.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "test": "vitest run",
+    "lint": "tsc -b --pretty false",
+    "data:verify": "node tools/verify-data-manifest.mjs",
+    "data:audit": "vite-node tools/audit-data.ts",
+    "data:export": "vite-node tools/export-update-package.ts",
+    "logo:audit": "node tools/audit-logo-coverage.mjs"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/plugin-opener": "^2.0.0",
+    "@tauri-apps/plugin-process": "^2.3.1",
+    "@tauri-apps/plugin-updater": "^2.10.1",
+    "@vitejs/plugin-react": "5.0.4",
+    "lucide-react": "0.468.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "typescript": "5.9.3",
+    "vite": "7.3.6",
+    "vitest": "3.2.7"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3"
+  }
+}

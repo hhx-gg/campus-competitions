@@ -1,0 +1,16 @@
+node_modules/
+.release-secrets/
+dist/
+.vite/
+.vs/
+*.log
+*.exe
+*.sig
+.playwright-cli/
+.impeccable/live/
+src-tauri/target/
+src-tauri/.cargo/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+update-service/public/downloads/

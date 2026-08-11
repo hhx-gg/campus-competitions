@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "version": "2026.08.10.7",
+  "createdAt": "2026-08-10T22:05:00+08:00",
+  "recordCount": 450,
+  "uniqueBrandCount": 150,
+  "fieldCompleteness": 1,
+  "releaseStatus": "audited-development-release",
+  "previousVersion": "2026.08.10.6",
+  "minimumAppVersion": "0.6.0",
+  "files": [
+    {
+      "path": "src/data/competitions.ts",
+      "sha256": "24373597fdcceac18338d5a95664bc18f1f3bbeee73624056a14d51794860210"
+    },
+    {
+      "path": "src/data/additionalCompetitions.ts",
+      "sha256": "db1dbdee09e9c2219e1fc260735e37402ee446da85919a5e3e4381ab99971d3b"
+    },
+    {
+      "path": "src/data/catalogCompetitions.ts",
+      "sha256": "5c024d3eeaf5a34341ecda4a6e8164e26117e63d7ef989e1bb7c5451654ffbc8"
+    },
+    {
+      "path": "src/data/expandedCompetitionCatalog.ts",
+      "sha256": "c2a5e2bac61ead143ebeeeb78af2e2663dc2307c46ad19dec5e0d45d015e2d8b"
+    },
+    {
+      "path": "src/data/sourceRegistry.ts",
+      "sha256": "ac8a7d448d89afb9eafaca23917a156f0c0a80d94cacb7c6010da5e86633f179"
+    },
+    {
+      "path": "src/data/competitionI18n.ts",
+      "sha256": "14be2539e3f10c98ff9ad1821ae6e4f53f8bb56a5dfc8084d40280a67c1f32b7"
+    },
+    {
+      "path": "src/data/competitionMaterials.ts",
+      "sha256": "7762cd5ce80f2d293310732d3ebefe91e9cefd91700d709b04ca8dfc6a4b1602"
+    },
+    {
+      "path": "src/data/discoveredMaterials.ts",
+      "sha256": "6aa7f64857b0918bee2e88b5324a8c82ad6018e1cd8cccf603aa3f8c209ba1bf"
+    },
+    {
+      "path": "src/data/officialLogos.ts",
+      "sha256": "0d64342ec3821a64c626747b9df38a84a5f2393e2c73798539ae7ba81c1d1920"
+    },
+    {
+      "path": "src/lib/appUpdates.ts",
+      "sha256": "76e65950b94284776c1a74d4e88325335d2531d0a77dd834406c238c359281e5"
+    },
+    {
+      "path": "update-service/src/index.ts",
+      "sha256": "3e6174aa2a6ea601c3dc74bfe0d4f76e409c7b446f181f479552b001e702ab05"
+    }
+  ],
+  "updatePackage": {
+    "path": "update-service/public/v1/package.json",
+    "sha256": "3ee8ffa8c3540707a161f7ee1752ef5cac8c902822ade2ccee708d60be4dab3c",
+    "recordCount": 450
+  },
+  "changes": [
+    "云端每日任务新增临时故障重试、失败哈希保留、失败明细与不可监测来源统计",
+    "替换一批失效赛事来源，并对已核验的2026报名日期使用精确日期覆盖月历估算",
+    "分类查找按赛事届次年份分页，不再错误地按报名开始年份归类",
+    "从公开官方站点元数据打包本地赛事标识；无官方图标时使用非圆形文字标识"
+  ],
+  "blockingReasons": []
+}
