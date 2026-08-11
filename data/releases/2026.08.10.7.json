@@ -7,7 +7,7 @@
   "fieldCompleteness": 1,
   "releaseStatus": "audited-development-release",
   "previousVersion": "2026.08.10.6",
-  "minimumAppVersion": "0.6.0",
+  "minimumAppVersion": "0.6.1",
   "files": [
     {
       "path": "src/data/competitions.ts",

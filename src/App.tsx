@@ -23,7 +23,7 @@ import { installAvailableAppUpdate } from './lib/appUpdates'
 type View = 'home' | 'search' | 'updates' | 'detail' | 'favorites' | 'calendar' | 'profile'
 type Language = 'zh' | 'en'
 type FavoriteTab = 'saved' | 'plans' | 'hidden'
-const APP_VERSION = '0.6.0'
+const APP_VERSION = '0.6.1'
 
 const copy = {
   zh: {

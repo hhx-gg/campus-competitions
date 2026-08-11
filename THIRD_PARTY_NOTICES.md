@@ -12,3 +12,8 @@
 | Vitest | 自动化测试 | MIT |
 
 第三方商标和竞赛名称归各自权利人所有。列出竞赛信息不代表主办方对本应用背书。
+
+## 软件物料清单（SBOM）
+
+- JavaScript/npm 依赖清单：`sbom.cdx.json`（CycloneDX 1.5，由 `npm sbom` 生成，覆盖当前锁定的 110 个组件）。
+- Rust 依赖清单：`src-tauri/Cargo.lock`；正式发布时可另行生成 cargo SBOM 并入发布物。

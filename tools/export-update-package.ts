@@ -47,7 +47,7 @@ const release = {
   fieldCompleteness: 1,
   releaseStatus: 'audited-development-release',
   previousVersion: '2026.08.10.6',
-  minimumAppVersion: '0.6.0',
+  minimumAppVersion: '0.6.1',
   files,
   updatePackage: { path: 'update-service/public/v1/package.json', sha256: hash, recordCount: competitions.length },
   changes: [

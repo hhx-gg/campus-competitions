@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto'
 import { copyFile, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
 import { basename, resolve } from 'node:path'
 
-const version = '0.6.0'
+const version = '0.6.1'
 const projectRoot = resolve('.')
 const bundleDir = resolve(projectRoot, 'src-tauri/target/release/bundle/nsis')
 const releasesDir = resolve(projectRoot, 'releases')
@@ -41,7 +41,7 @@ await writeFile(`${updaterPath}.sig`, `${signature}\n`, 'utf8')
 
 const updater = {
   version,
-  notes: '增强每日数据更新、官方站点标识、年份筛选、深色主题、隐藏恢复、双语界面与应用自动升级。',
+  notes: '应用新 Logo 全面上线；移除提醒与审核后台范围；增强每日数据更新、官方站点标识、年份筛选、深色主题、隐藏恢复、双语界面与应用自动升级。',
   pub_date: new Date().toISOString(),
   platforms: {
     'windows-x86_64': {
