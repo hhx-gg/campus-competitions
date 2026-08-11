@@ -3,7 +3,7 @@
 当前桌面版本为 0.6.1。应用通过 Cloudflare 中央数据接口每日检查赛事数据；服务器每天分两批检查已登记的 85 个官方 HTTPS 来源（82 个可监测网页、3 个保留下载用途的 PDF），并在校验通过后发布统一数据包。抓取失败时，服务器和客户端都会保留上一版有效数据。桌面程序另使用 Tauri 签名升级包在启动时及每 6 小时检查应用版本。
 
 面向 Windows 10/11 的本地优先竞赛信息桌面应用。它集中展示竞赛来源、报名时间、赛程、收藏和参赛计划，不做个性化推荐。
-源码仓库：https://github.com/hhx-gg/campus-competitions（当前为私有仓库）；Windows 安装包通过 GitHub Releases 发布（v0.6.1）。
+源码仓库：https://github.com/hhx-gg/campus-competitions（开源，MIT）；Windows 安装包通过 GitHub Releases 发布（v0.6.1）。
 
 ## 当前使用
 

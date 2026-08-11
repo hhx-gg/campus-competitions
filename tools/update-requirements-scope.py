@@ -33,6 +33,8 @@ REPLACEMENTS = {
     "GitHub 用户名／组织名：【最终版完成并确认后填写】": "GitHub 用户名／组织名：【hhx-gg】",
     "当前暂不上传GitHub，最终版完成并确认后再发布。": "已发布至 GitHub（私有仓库 campus-competitions）；待验收通过后转为公开。",
     "当前不创建或上传GitHub仓库，待最终版完成并确认后再发布。": "已发布至 GitHub（私有仓库 campus-competitions）；待最终版验收通过后转为公开。",
+    "已发布至 GitHub（私有仓库 campus-competitions）；待验收通过后转为公开。": "已发布至 GitHub（公开仓库 campus-competitions）。",
+    "已发布至 GitHub（私有仓库 campus-competitions）；待最终版验收通过后转为公开。": "已发布至 GitHub（公开仓库 campus-competitions）。",
 }
 
 REMINDER_HEADING = "5.3 报名提醒"
